@@ -1,0 +1,42 @@
+.Navbar{
+    /* border: 2px solid blue; */
+    height: 12vh;
+    background-color:black ;
+    display: flex;
+}
+.Nav1{
+    /* border: 2px solid blue; */
+    width: 60%;
+    height: 100%;
+    color: pink;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.Nav1:hover{
+    color: white;
+}
+
+.Nav2{
+    /* border: 2px solid green; */
+    width: 40%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.Nav2 button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+}
+.Nav2 button:hover{
+    background: #E75480 ;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
